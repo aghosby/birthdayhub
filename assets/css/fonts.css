@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+	font-family: 'PGT';
+	src: url(../fonts/Post-Grotesk-Thin.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGL';
+	src: url(../fonts/Post-Grotesk-Light.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGR';
+	src: url(../fonts/Post-Grotesk-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGM';
+	src: url(../fonts/Post-Grotesk-Medium.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGB';
+	src: url(../fonts/Post-Grotesk-Bold.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGBL';
+	src: url(../fonts/Post-Grotesk-Black.ttf);
+	font-weight: normal;
+	font-style: normal;
+}

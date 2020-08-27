@@ -1,0 +1,151 @@
+.owl-theme .owl-controls {
+	position: absolute;
+	top: -50px;
+	right: -5px;
+}
+.section .inner_wrap .owl-theme .owl-controls {
+	bottom: 50px;
+	right: 0
+}
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons {
+	width: auto;
+	height: auto;
+	float: right;
+	border: 1px solid #fff;
+	position: relative;
+}
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons {
+	border: 1px solid #5a5b5c;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	background: transparent;
+	width: 50px;
+	height: 25px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	transition: color 0.4s cubic-bezier(0.4,0,0.2,1) 0s;
+	position: relative;
+	z-index: 4;
+}
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons div {
+	width: 50px;
+	height: 30px;
+	color: #5a5b5c;
+}
+.owl-theme .owl-controls .owl-buttons div span {
+	font-size: 20px;
+	margin-top: -10px;
+	margin-left: -10px;
+	transform: translateX(0);
+	transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	border-left: 1px solid #fff;
+}
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons .owl-next {
+	border-left: 1px solid #5a5b5c;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:after,
+.owl-theme .owl-controls .owl-buttons .owl-next:after {
+	content: '';
+	background: #dc2d30;
+	width: 0;
+	height: 25px;
+	display: block;
+	transform: translateX(0) translateY(0);
+	transition: all 0.4s cubic-bezier(0.4,0,0.2,1) 0s;
+	position: absolute;
+	bottom: 0;
+}
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons .owl-prev:after,
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons .owl-next:after {
+	height: 30px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:after {
+	right: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next:after {
+	left: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:hover:after, .owl-theme .owl-controls .owl-buttons .owl-next:hover:after {
+	width: 100%;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	color: #fff;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:hover span {
+	transform: translateX(-3px)
+}
+.owl-theme .owl-controls .owl-buttons .owl-next:hover span {
+	transform: translateX(3px)
+}
+.owl-theme .owl-controls .owl-page {
+	display: none;
+}
+.owl-theme .owl-controls .owl-buttons .ic-arrow-left {
+	position: relative;
+}
+.owl-theme .owl-controls .owl-buttons .ic-arrow-left:before {
+	content: '\2190';
+	position: absolute;
+	z-index: 10;
+	left: -30px;
+	top: -14px;
+}
+.owl-theme .owl-controls .owl-buttons .ic-arrow-right {
+	position: relative;
+}
+.owl-theme .owl-controls .owl-buttons .ic-arrow-right:before {
+	content: '\2192';
+	position: absolute;
+	z-index: 10;
+	left: -30px;
+	top: -14px;
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+/*--- slider controls ---*/
+
+.section .inner_wrap .owl-theme .owl-controls {
+	top: -40px;
+	right: 0;
+}
+.owl-theme .owl-controls .owl-buttons{
+	border: 1px solid #fff;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	border-left: 1px solid #fff;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	width: 20px;
+	height: 20px;
+	color: #fff;
+}
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons div {
+	width: 45px;
+	height: 25px;
+	color: #5a5b5c;
+}
+.owl-theme .owl-controls .owl-buttons div span {
+	font-size: 16px;
+	margin-top: -8px;
+	margin-left: -8px;
+	top: 65%;
+}
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons .owl-prev:after,
+.section .inner_wrap .owl-theme .owl-controls .owl-buttons .owl-next:after {
+	height: 25px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:after,
+.owl-theme .owl-controls .owl-buttons .owl-next:after {
+	height: 55px;
+}
+}
