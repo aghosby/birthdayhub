@@ -1,0 +1,192 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>GR8DREAMS</title>
+    <link rel="icon" type="image/png" href="assets/img/gr8dreams-logo.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/owl_theme.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <script type="text/javascript" src="assets/js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="assets/js/prefixfree-1.0.7.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+
+
+  </head>
+
+  <body>
+  
+    <div id="main_wrapper">
+
+      <div class="header clearfix">
+        <div class="hdr">
+          <div class="b_logo">
+            <a href="index.html">
+              <img src="assets/img/gr8dreams-logo.png"/>
+            </a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">Who We Are</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-l grey_sec clearfix">
+        <div class="inner_wrap">
+          <div class="pg_hd">
+            <ul class="breadcrumb">
+              <li><a href="">Home</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+            <div class="pg_title">Contact Us</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="inner_wrap">
+          <div class="full_row">
+            <div class="pg_major">Get in touch with us</div>
+            <div class="sec_det"><p>We strive to fulfill our missions commitment by getting the job done right, everytime.</p></div>
+          </div>
+
+          <div class="sc_row clearfix">
+              <div class="s_cont_wrap">
+                <div class="s_cont_hd">Address</div>
+                <p>10-2, Level 10, West Wing, MATRADE Tower,<br/> Jalan Sultan Haji Ahmad Shah, 50480<br/> Kuala Lumpur, Malaysia.</p>
+              </div>
+              <div class="s_cont_wrap">
+                <div class="s_cont_hd">Email</div>
+                <p><a href="">info@gr8dreams.com.ng</a></p>
+              </div>
+              <div class="s_cont_wrap">
+                <div class="s_cont_hd">Phone</div>
+                <p><a href="">+603 6211 6162</a></p>
+              </div>
+
+          </div>
+
+          <div class="th_row clearfix">
+            <div class="s_cont">
+              <form>
+                <div class="in_row clearfix">
+                  <div class="tgroup">
+                    <label>Name</label>
+                    <input type="text" name="your-name" value="" size="40"/>
+                  </div>
+                  <div class="tgroup">
+                    <label>Designation</label>
+                    <input type="text" name="your-designation" value="" size="40"/>
+                  </div>
+                </div>
+                
+                <div class="in_row clearfix">
+                  <div class="tgroup">
+                    <label>Organisation</label>
+                    <input type="text" name="your-organisation" value="" size="40"/>
+                  </div>
+                  <div class="tgroup">
+                    <label>Address</label>
+                    <input type="text" name="your-address" value="" size="40"/>
+                  </div>
+                </div>
+                
+                <div class="in_row clearfix">
+                  <div class="tgroup">
+                    <label>Email</label>
+                    <input type="text" name="your-email" value="" size="40"/>
+                  </div>
+                  <div class="tgroup">
+                    <label>Phone</label>
+                    <input type="text" name="your-phone" value="" size="40"/>
+                  </div>
+                </div>
+                
+                
+                <div class="in_row clearfix">
+                  <div class="tgroup">
+                    <label>Message</label>
+                    <textarea name="your-message" cols="40" rows="10"></textarea>
+                  </div>
+                </div>
+              </form>
+
+              <div class="cta"><a href="#">Submit</a></div>
+            </div>
+
+            <div class="map_hld">
+              <div id="map"></div>
+            </div>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnfMCvOW_WJ2Y3OjlcZlE_3yCxXOK9mzs"></script>
+            <script>
+            var myCenter = new google.maps.LatLng(6.435716, 3.438336);
+            function initialize(){
+                var mapProp = {
+                center:myCenter,
+                zoom:15,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+                };
+        
+                var map = new google.maps.Map(document.getElementById("map"),mapProp);
+        
+                var marker = new google.maps.Marker({
+                position:myCenter,
+                });
+        
+                marker.setMap(map);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer clearfix">
+        <div class="inner_wrap">
+          <div class="ft_top clearfix">
+            <div class="col">
+              <div class="ft_hd">Who we are</div>
+              <div class="col_text">WE ARE ENERGIZED AND ENGAGED IN MOVING FORWARD AS A TEAM TO GET THE JOB DONE RIGHT, EVERY TIME.</div>
+            </div>
+            <div class="col">
+              <div class="ft_hd">Contact Us</div>
+              <div class="ft_addr">
+                <p>GR8 DREAMS SDN BHD (639447-H),<br/>10-2, Level 10, West Wing, MATRADE Tower,<br/>Jalan Sultan Haji Ahmad Shah, 50480 Kuala Lumpur.</p>
+              </div>
+              <div class="ft_mail">
+                <p>info@gr8dreams.com.ng</p>
+              </div>
+              <div class="ft_tel">
+                <p>(+234) 705 3143 333</p>
+                <p>(+234) 905 5793 687</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="assets/img/gr8dreams-logo.png"/>
+              <div class="copyright"><a href="#" target="new">&copy; 2020 Gr8dreamsworldwide.</a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     
+    </div>
+  
+  </body>
+</html>
