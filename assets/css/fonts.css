@@ -1,40 +1,39 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @font-face {
-	font-family: 'PGT';
-	src: url(../fonts/Post-Grotesk-Thin.ttf);
+	font-family: 'RT';
+	src: url(../fonts/Roboto-Thin.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'PGL';
-	src: url(../fonts/Post-Grotesk-Light.ttf);
+	font-family: 'RL';
+	src: url(../fonts/Roboto-Light.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'PGR';
-	src: url(../fonts/Post-Grotesk-Regular.ttf);
+	font-family: 'RR';
+	src: url(../fonts/Roboto-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'PGM';
-	src: url(../fonts/Post-Grotesk-Medium.ttf);
+	font-family: 'RM';
+	src: url(../fonts/Roboto-Medium.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'PGB';
-	src: url(../fonts/Post-Grotesk-Bold.ttf);
+	font-family: 'RB';
+	src: url(../fonts/Roboto-Bold.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'PGBL';
-	src: url(../fonts/Post-Grotesk-Black.ttf);
+	font-family: 'RBL';
+	src: url(../fonts/Roboto-Black.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
