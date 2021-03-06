@@ -1,14 +1,20 @@
 $(document).ready(function() {
 	"use strict";
-	$('.header').scrollToFixed({
-		zIndex: 7
-	});
 
     $('.flexslider').flexslider({
 		animation: "fade",
 		controlNav: true,
 		animationSpeed: 3000,
 		directionNav: true
+	});
+
+	$("body").delegate(".ic", "click", function (e) {
+		e.stopPropagation();
+		var c = $(this).parents(".faq_hld"),
+			m = c.find('.faq_det');
+		$(".faq_hld .faq_det").not(m).slideUp(1000);
+		m.slideToggle(1000);
+		$(this).find(".fa-chevron-down").toggleClass('sh');
 	});
 
 
@@ -20,7 +26,7 @@ $(document).ready(function() {
 		var scroll = $(window).scrollTop();
 		
 		var d = $('.header');
-		if (scroll >= 50) d.addClass('smheader');
+		if (scroll >= 70) d.addClass('smheader');
 		else d.removeClass('smheader');
 	});
 	
